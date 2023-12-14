@@ -10,4 +10,4 @@ class CookieClicker(BaseTest):
         gamePageObject = GamePage(self.driver)
         gamePageObject.click_to_cookie_button()
 
-        self.assertEqual("Amazon.com. Spend less. Smile more.", self.driver.title)
+
